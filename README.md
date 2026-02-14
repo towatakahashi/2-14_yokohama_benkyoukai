@@ -1,2 +1,2 @@
-# 2-14_yokohama_benkyoukai
+# 2026.02.14_yokohama_benkyoukai
 2/14_yokohama_benkyoukai
