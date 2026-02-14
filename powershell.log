@@ -1,0 +1,79 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260214160133
+Username: EC2AMAZ-MSORV29\Administrator
+RunAs User: EC2AMAZ-MSORV29\Administrator
+Configuration Name: 
+Machine: EC2AMAZ-MSORV29 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 8564
+PSVersion: 5.1.26100.32370
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.32370
+BuildVersion: 10.0.26100.32370
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Logs\powershell.log
+PS C:\Windows\system32> curl.exe bokunimo.net/hello.html
+
+PS C:\Windows\system32> curl.exe  -v bokunimo.net/hello.html
+
+PS C:\Windows\system32> cd ..\..
+PS C:\> cd Users\Administrator
+PS C:\Users\Administrator> cd tols
+cd : Cannot find path 'C:\Users\Administrator\tols' because it does not exist.
+At line:1 char:1
++ cd tols
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Administrator\tols:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Users\Administrator\tols' because it does not exist.
+At line:1 char:1
++ cd tols
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Administrator\tols:String) [Set-Location], ItemNotFoundExcepti
+   on
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Administrator> cd tools
+PS C:\Users\Administrator\tools> python tcp_server.py
+
+PS C:\Users\Administrator\tools> copy C:\Logs\powershell.log C:\Users\Administrator\Documents\work\2-14_yokohama_benkyoukai
+>> TerminatingError(Copy-Item): "There is not enough space on the disk.
+"
+copy : There is not enough space on the disk.
+
+At line:1 char:1
++ copy C:\Logs\powershell.log C:\Users\Administrator\Documents\work\2-1 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand
+copy : There is not enough space on the disk.
+
+At line:1 char:1
++ copy C:\Logs\powershell.log C:\Users\Administrator\Documents\work\2-1 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand
+
+PS C:\Users\Administrator\tools> copy C:\Logs\powershell.log C:\Users\Administrator\Documents\work\2-14_yokohama_benkyoukai
+>> TerminatingError(Copy-Item): "There is not enough space on the disk.
+"
+copy : There is not enough space on the disk.
+
+At line:1 char:1
++ copy C:\Logs\powershell.log C:\Users\Administrator\Documents\work\2-1 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand
+copy : There is not enough space on the disk.
+
+At line:1 char:1
++ copy C:\Logs\powershell.log C:\Users\Administrator\Documents\work\2-1 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand
+
